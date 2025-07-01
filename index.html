@@ -2,57 +2,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Areej Tabah</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4c/Kaaba_Masjid_Haram_Makkah.jpg');
-      background-size: cover;
-      background-position: center;
-      font-family: sans-serif;
-      color: white;
-    }
-    .container {
-      text-align: center;
-      padding: 50px 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      min-height: 100vh;
-    }
-    h1 {
-      font-size: 2.5em;
-      color: gold;
-    }
-    .button {
-      display: block;
-      margin: 15px auto;
-      padding: 15px 30px;
-      width: 250px;
-      font-size: 1.2em;
-      background-color: gold;
-      color: black;
-      border: none;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    img.logo {
-      width: 100px;
-      margin-bottom: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>AREEJ TABAH</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Masjid_al-Haram_Makkah.jpg/1920px-Masjid_al-Haram_Makkah.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        .overlay {
+            background-color: rgba(0,0,0,0.6);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        img.logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #FFD700;
+        }
+        a {
+            color: #FFD700;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .card {
+            width: 250px;
+            margin: 20px auto;
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+            background-color: #000;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <img src="logo.png" alt="Areej Tabah Logo" class="logo" />
-    <h1>Welcome to Areej Tabah</h1>
-    <a href="Makkah price list.pdf" class="button">Makkah Price List</a>
-    <a href="Madinah price list.pdf" class="button">Madinah Price List</a>
-    <a href="About AREEJ TABAH.pdf" class="button">About Areej Tabah</a>
-    <a href="Visa.pdf" class="button">Visa Price</a>
-    <a href="Business Card.png" class="button">Business Card</a>
-  </div>
+    <div class="overlay">
+        <img src="logo.png" alt="Areej Tabah Logo" class="logo">
+        <h1>AREEJ TABAH</h1>
+        <div class="card">
+            <img src="Business Card.png" alt="Business Card">
+        </div>
+        <a href="Visa.pdf" target="_blank">Visa Price List</a>
+        <a href="Makkah price list.pdf" target="_blank">Makkah Price List</a>
+        <a href="Madinah price list.pdf" target="_blank">Madinah Price List</a>
+        <a href="About AREEJ TABAH.pdf" target="_blank">About Us</a>
+    </div>
 </body>
 </html>
